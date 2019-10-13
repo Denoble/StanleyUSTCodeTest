@@ -1,0 +1,114 @@
+{ "name":"Stanley Uche Godfrey",
+  "email":"suche.godfrey@gmail.com",
+  "phone":"+1416-684-8419",
+  "LinkedIn":"https://ca.linkedin.com/in/de-noble",
+  "professionalSummary":[
+    "4+ years of work experience as a software developer with strong expertise in Mobile Application Development",
+    "Good understanding of software development lifecycle, Automation testing, and Manual Testing",
+    "Programming expertise and strong troubleshooting skills in Android SDK, different versions of Android and Object-Oriented design and Programming concepts. 3+ years of Android and 1+ year of iOS Swift development in Xcode. Working knowledge of Android Media Playback, Android development with Kotlin",
+    "Hands on experience in Developing and Maintaining Mobile Application using Core Java, Kotlin, Swift,RESTful APIs, MVC, HTML, CSS, JavaScript",
+    "Quick learner to become proficient at new technologies",
+    "Comfortable working with a fast-paced environment to meet deadlines",
+    "Increased efficiency, higher productivity, and improved profitability",
+    "Effective in working independently and collaboratively in teams",
+    "3+ years of experience in developing, implementing Web Applications, using Visual Studio 2015/2013/2010/2008, Vb.net, C#.NET, ASP.NET, .NET Framework and Databases such as SQL Server 2015/2012/2008 with N-tier development environment. Knowledge of LINQ and SQL queries",
+    "Good working knowledge of C, C++, UNIX. Has Developed FreeBSD Operating System Security Library using C and C++"
+    ],
+    "technicalSkill":{
+      "AndroidTechnologies":"Social SDK Integration, Web Service Integration, JSON, Google APIs, Push Notifications, FireBase, Media playback, Libraries like ButterKnife, Picasso,Glide. Architecure components. In-App Purchase, Animations, Admob",
+      "iOSTechnologies":"Networking, iOS UIKit framework, Authentication, Data Structure and Algorithm",
+      "Languages":"Core Java, Kotlin, Swift, HTML, CSS, JavaScript, C, C++",
+      "Databases":"MS SQL, SQLite, MySQL, Firebase Database, Room ",
+      "Operating Systems":"Mac, Windows, Linux",
+      ".NETTechnologies":"MVC, MVC Core, Stored Procedure, Web API, Transact, JavaScript, HMTL5",
+      "IntegrationTools":"SVN, Git",
+      "TestingTools":"Android Studio, NetBeans, Eclipse, JCreator, Expresso",
+      "DevelopmentTools":"Android Studio, Visual Studio, XCode"
+    },
+    "workExperience":[{
+      "companyName": "Black Fyre",
+      "position":"Android/iOS/BackEnd Developer",
+       "startDate":"Jan, 2019",
+       "endDate": "current",
+      "duties":["Developing an Android and iOS business guide application from ground up with kotlin and Swift respectively",
+      "Developing the backend of the business guide application with .NET MVC Core, C# and AWS"
+        ],
+      "technicalEnvironment":""
+    },
+     {
+       "companyName": "Tire Storage Solutions",
+      "position":"Android/iOS/.NET MVC Developer",
+       "startDate":"Mar, 2019",
+       "endDate": "Sep, 2019",
+      "duties":["Maintained Android/iOS/.NET MVC Applications, by adding new features to the Android/iOS/.NET MVC Applications as required by the application user clients",
+      "Maintained existing large-scale storage tracking Android application by fixing bugs",
+      "Implemented barcode scanning functionality",
+      "Convert iOS App from Swift 3 to Swift 5 and modifying the Networking and Authentication to conform to Swift 5. Added a mobile device camera scanner functionality to the existing iOS App",
+      "Incorporated hand-held scanner functionalities into the existing iOS App"
+        ],
+      "technicalEnvironment":"Agile,Xcode,Android Studio,Visual Studio"
+    },
+    {
+    "companyName": "Clearrisk",
+      "position":"Web developer",
+       "startDate":"Jul, 2017",
+       "endDate": "Dec, 2017",
+      "duties":["Designed, developed, tested and deployed responsive web application for Desktop mobile phones, tablets",
+      "Created specific UI for different screen sizes and different frameworks"
+        ],
+      "technicalEnvironment":"HTML, JavaScript, CSS, JQuery"
+    },
+    {
+     "companyName": "Memorial University of Newfoundland",
+      "position":"Software developer(Research position)",
+       "startDate":"Aug, 2015",
+       "endDate": "Oct, 2017",
+      "duties":["Designed, developed and tested Lib-preopen",
+      "Researched on how to run unmodified binaries in Capsicum sandbox mode"
+        ],
+      "technicalEnvironment":"C, C++, FreeBSD, UNIX",
+      "GitHub":"https://github.com/musec/libpreopen "
+    },
+    {
+     "companyName": "Slapps Oy ",
+      "position":"Android Developer",
+       "startDate":"Mar, 2013",
+       "endDate": "Aug, 2015",
+      "duties":["Weather-based application (Java, Eclipse, Android SDK, and SQLite)Developed Android Weather-based application from ground up",
+      "Implemented Animation that mimic current weather condition",
+      "Designed UI and populate UI with data fetched from openweathermap web API",
+      "Converted JSON to Java objects"
+        ]
+    },
+    {
+     "companyName": "Emporg Ltd ",
+      "position":".NET Web developer",
+       "startDate":"Jan, 2010",
+       "endDate": "Aug, 2011",
+      "duties":["Designed and implemented web application using .Net webforms, HTML, ADO.NET.",
+      "Use Ado.Net object to populate Data set, Data grid and Repeater controls for display and   manipulation of records",
+      "Developed SQL Queries to fetch complex data from different tables in the remote database using inner/outer joins, sub-queries, accommodating complex filters and database links"
+        ],
+         "technicalEnvironment":"Visual studio 2008/2010, SQLServer 2005/2008, C#, .NET Webforms, CSS, JavaScript, HTML",
+      "GitHub":""
+    }
+    ],
+  "education":[
+    {
+      "schoolName":"Helsinki Metropolia University of Applied Sciences",
+      "degreeAwarded":"B.Engr in Information Technology",
+      "startDate":"Sep 2011",
+      "endDate":"Nov  2014",
+      "Standing": "Graduated with honors"
+    },
+    {
+      "schoolName":"Memorial University of Newfoundland",
+      "degreeAwarded":"M.Sc in Scientific Computing",
+      "startDate":"Sep 2015",
+      "endDate":"Aug  2017",
+      "Standing": "Graduated with honors"
+    }
+    ]
+    
+  
+}
