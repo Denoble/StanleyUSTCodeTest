@@ -1,12 +1,18 @@
 package com.gevcorst.stanleygodfreycvapp.ui
 
 
+import android.content.Context
+import android.net.ConnectivityManager
+import android.net.NetworkCapabilities
+import android.os.Build
 import android.os.Bundle
+import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
+import android.widget.Toast
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.ViewModelProviders
 import androidx.navigation.Navigation
@@ -21,6 +27,7 @@ import com.gevcorst.stanleygodfreycvapp.viewModel.ResumeViewModel
  * A simple [Fragment] subclass.
  */
 class HomeFragment : Fragment() {
+
     private val viewModel: ResumeViewModel by lazy {
         ViewModelProviders.of(this).get( ResumeViewModel::class.java)
     }
@@ -42,8 +49,9 @@ class HomeFragment : Fragment() {
         binding.ed.setOnClickListener {
             it.findNavController().navigate(HomeFragmentDirections.actionHomeToEducationFragment())
         }
+
+
         return binding.root
     }
-
 
 }
