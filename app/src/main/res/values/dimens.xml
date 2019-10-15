@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cardViewWidth">170dp</dimen>
+    <dimen name="cardViewHeight">170dp</dimen>
+    <dimen name="cardviewCornerRadius">6dp</dimen>
+    <dimen name="cvdimens">10dp</dimen>
+    <dimen name="databaseMargin">55dp</dimen>
+</resources>

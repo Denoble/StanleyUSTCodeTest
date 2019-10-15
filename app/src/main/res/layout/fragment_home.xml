@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="viewModel"
+            type="com.gevcorst.stanleygodfreycvapp.viewModel.ResumeViewModel" />
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/pf"
+                android:layout_width="@dimen/cardViewWidth"
+                android:layout_height="@dimen/cardViewHeight"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="24dp"
+                android:contextClickable="true"
+                app:cardBackgroundColor="@color/colorPrimaryDark"
+                app:cardCornerRadius="@dimen/cardviewCornerRadius"
+                app:cardElevation="@dimen/cardviewCornerRadius"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/textPf"
+                    android:layout_width="match_parent"
+
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/professionalSummary" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/ts"
+                android:layout_width="@dimen/cardViewWidth"
+                android:layout_height="@dimen/cardViewHeight"
+                android:layout_marginTop="16dp"
+                android:contextClickable="true"
+                app:cardBackgroundColor="@color/colorPrimaryDark"
+                app:cardCornerRadius="@dimen/cardviewCornerRadius"
+                app:cardElevation="@dimen/cardviewCornerRadius"
+                app:layout_constraintStart_toStartOf="@+id/pf"
+                app:layout_constraintTop_toBottomOf="@+id/pf">
+
+                <TextView
+                    android:id="@+id/textTs"
+                    android:layout_width="match_parent"
+
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/technicalSkills" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/ws"
+                android:layout_width="@dimen/cardViewWidth"
+                android:layout_height="@dimen/cardViewHeight"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="23dp"
+                android:background="@color/colorSecondary"
+                android:contextClickable="true"
+                app:cardBackgroundColor="@color/colorPrimaryDark"
+                app:cardCornerRadius="@dimen/cardviewCornerRadius"
+                app:layout_constraintBottom_toBottomOf="@+id/pf"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/pf"
+                app:layout_constraintTop_toTopOf="@+id/pf"
+                app:layout_constraintVertical_bias="0.0">
+
+                <TextView
+                    android:id="@+id/textWs"
+                    android:layout_width="match_parent"
+
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/workexperiences" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/ed"
+                android:layout_width="@dimen/cardViewWidth"
+                android:layout_height="@dimen/cardViewHeight"
+
+                android:background="@color/colorPrimaryDark"
+                android:contextClickable="true"
+                app:cardBackgroundColor="@color/colorPrimaryDark"
+                app:cardCornerRadius="@dimen/cardviewCornerRadius"
+                app:cardElevation="@dimen/cardviewCornerRadius"
+                app:layout_constraintBottom_toBottomOf="@+id/ts"
+                app:layout_constraintEnd_toEndOf="@+id/ws"
+                app:layout_constraintStart_toStartOf="@+id/ws"
+                app:layout_constraintTop_toTopOf="@+id/ts">
+
+                <TextView
+                    android:id="@+id/textEd"
+                    android:layout_width="match_parent"
+
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/education" />
+            </androidx.cardview.widget.CardView>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+
+
+
+
+
+
+</layout>

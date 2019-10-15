@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="TCModel"
+            type="com.gevcorst.stanleygodfreycvapp.viewModel.ResumeViewModel"
+            />
+    </data>
+
+    <com.google.android.material.circularreveal.cardview.CircularRevealCardView
+        style="@style/AppTheme.cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/fontColor"
+        app:cardCornerRadius="@dimen/cvdimens"
+        app:cardElevation="@dimen/cvdimens">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            style="@style/AppTheme.cardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/tv"
+                style="@style/AppTheme.cardView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/inteTools"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/tv7"
+                app:layout_constraintStart_toStartOf="@+id/tv7"
+                app:layout_constraintTop_toBottomOf="@+id/tv7" />
+
+            <TextView
+                android:id="@+id/intTools"
+                style="@style/AppTheme.cardView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                app:layout_constraintBottom_toBottomOf="@+id/tv"
+                app:layout_constraintEnd_toEndOf="@+id/iosTech"
+                app:layout_constraintStart_toStartOf="@+id/iosTech"
+                app:layout_constraintTop_toTopOf="@+id/tv" />
+
+            <TextView
+                android:id="@+id/tv11"
+                style="@style/AppTheme.cardView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/dotnetTech"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/tv17"
+                app:layout_constraintStart_toStartOf="@+id/tv17"
+                app:layout_constraintTop_toBottomOf="@+id/tv17" />
+
+            <TextView
+                android:id="@+id/tv12"
+                style="@style/AppTheme.cardView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/OperatingSystems"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/tv11"
+                app:layout_constraintStart_toStartOf="@+id/tv11"
+                app:layout_constraintTop_toBottomOf="@+id/tv11" />
+
+            <TextView
+                android:id="@+id/testingTools"
+                style="@style/AppTheme.cardView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                app:layout_constraintBottom_toBottomOf="@+id/tv15"
+                app:layout_constraintEnd_toEndOf="@+id/operatingSystem"
+                app:layout_constraintStart_toStartOf="@+id/operatingSystem"
+                app:layout_constraintTop_toTopOf="@+id/tv15" />
+
+            <TextView
+                android:id="@+id/dotnetTech"
+                style="@style/AppTheme.cardView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                app:layout_constraintBottom_toBottomOf="@+id/tv11"
+                app:layout_constraintEnd_toEndOf="@+id/languages"
+                app:layout_constraintStart_toStartOf="@+id/languages"
+                app:layout_constraintTop_toTopOf="@+id/tv11" />
+
+            <TextView
+                android:id="@+id/tv15"
+                style="@style/AppTheme.cardView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/testingTools"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/tv12"
+                app:layout_constraintStart_toStartOf="@+id/tv12"
+                app:layout_constraintTop_toBottomOf="@+id/tv12" />
+
+            <TextView
+                android:id="@+id/operatingSystem"
+                style="@style/AppTheme.cardView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                app:layout_constraintBottom_toBottomOf="@+id/tv12"
+                app:layout_constraintEnd_toEndOf="@+id/dotnetTech"
+                app:layout_constraintStart_toStartOf="@+id/dotnetTech"
+                app:layout_constraintTop_toTopOf="@+id/tv12" />
+
+            <TextView
+                android:id="@+id/tv17"
+                style="@style/AppTheme.cardView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/lang"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/tv"
+                app:layout_constraintStart_toStartOf="@+id/tv"
+                app:layout_constraintTop_toBottomOf="@+id/tv" />
+
+            <TextView
+                android:id="@+id/tv1"
+                style="@style/AppTheme.cardView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/AndroidTech"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/androidTech"
+                style="@style/AppTheme.cardView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="TextView"
+                app:layout_constraintBottom_toBottomOf="@+id/tv1"
+                app:layout_constraintStart_toEndOf="@+id/tv1"
+                app:layout_constraintTop_toTopOf="@+id/tv1" />
+
+            <TextView
+                android:id="@+id/tv3"
+                style="@style/AppTheme.cardView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/database"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/tv1"
+                app:layout_constraintStart_toStartOf="@+id/tv1"
+                app:layout_constraintTop_toBottomOf="@+id/tv1" />
+
+            <TextView
+                android:id="@+id/databases"
+                style="@style/AppTheme.cardView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                app:layout_constraintBottom_toBottomOf="@+id/tv3"
+                app:layout_constraintEnd_toEndOf="@+id/androidTech"
+                app:layout_constraintStart_toStartOf="@+id/androidTech"
+                app:layout_constraintTop_toTopOf="@+id/tv3" />
+
+            <TextView
+                android:id="@+id/tv5"
+                style="@style/AppTheme.cardView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/devTools"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/tv3"
+                app:layout_constraintStart_toStartOf="@+id/tv3"
+                app:layout_constraintTop_toBottomOf="@+id/tv3" />
+
+            <TextView
+                android:id="@+id/deveTools"
+                style="@style/AppTheme.cardView"
+                android:layout_width="wrap_content"
+                android:layout_height="16dp"
+                android:text="TextView"
+                app:layout_constraintBottom_toBottomOf="@+id/tv5"
+                app:layout_constraintEnd_toEndOf="@+id/databases"
+                app:layout_constraintStart_toStartOf="@+id/databases"
+                app:layout_constraintTop_toTopOf="@+id/tv5" />
+
+            <TextView
+                android:id="@+id/tv7"
+                style="@style/AppTheme.cardView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/iosTech"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/tv5"
+                app:layout_constraintStart_toStartOf="@+id/tv5"
+                app:layout_constraintTop_toBottomOf="@+id/tv5" />
+
+            <TextView
+                android:id="@+id/iosTech"
+                style="@style/AppTheme.cardView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                app:layout_constraintBottom_toBottomOf="@+id/tv7"
+                app:layout_constraintEnd_toEndOf="@+id/deveTools"
+                app:layout_constraintStart_toStartOf="@+id/deveTools"
+                app:layout_constraintTop_toTopOf="@+id/tv7" />
+
+            <TextView
+                android:id="@+id/languages"
+                style="@style/AppTheme.cardView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                app:layout_constraintBottom_toBottomOf="@+id/tv17"
+                app:layout_constraintEnd_toEndOf="@+id/intTools"
+                app:layout_constraintStart_toStartOf="@+id/intTools"
+                app:layout_constraintTop_toTopOf="@+id/tv17" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.circularreveal.cardview.CircularRevealCardView>
+
+</layout>

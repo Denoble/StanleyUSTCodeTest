@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/nav_graph"
+    app:startDestination="@id/home">
+
+    <fragment
+        android:id="@+id/home"
+        android:label="My Resume"
+        android:name="com.gevcorst.stanleygodfreycvapp.ui.HomeFragment">
+        <action
+            android:id="@+id/action_homeFragment_to_professionalSummary"
+            app:destination="@id/professionalSummary" />
+        <action
+            android:id="@+id/action_home_to_workExperienceFragment"
+            app:destination="@id/workExperienceFragment" />
+        <action
+            android:id="@+id/action_home_to_technicalSkillsFragment"
+            app:destination="@id/technicalSkillsFragment" />
+        <action
+            android:id="@+id/action_home_to_educationFragment"
+            app:destination="@id/educationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/professionalSummary"
+        android:name="com.gevcorst.stanleygodfreycvapp.ui.ProfessionalSummary"
+        android:label="ProfessionalSummary" />
+    <fragment
+        android:id="@+id/workExperienceFragment"
+        android:name="com.gevcorst.stanleygodfreycvapp.ui.WorkExperienceFragment"
+        android:label="Work Experience" />
+    <fragment
+        android:id="@+id/technicalSkillsFragment"
+        android:name="com.gevcorst.stanleygodfreycvapp.ui.TechnicalSkillsFragment"
+        android:label="Technical Skills" />
+    <fragment
+        android:id="@+id/educationFragment"
+        android:name="com.gevcorst.stanleygodfreycvapp.ui.EducationFragment"
+        android:label="Education" />
+</navigation>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Resume </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="professionalSummary">Professional Summary</string>
+    <string name="technicalSkills">Technical Skills</string>
+    <string name="workexperiences">work Experience</string>
+    <string name="education">Education</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="to">to</string>
+    <string name="AndroidTech">Android Technologies:</string>
+    <string name="database">Databases:</string>
+    <string name="devTools">Development Tools:</string>
+    <string name="iosTech">iOSTechnologies:</string>
+    <string name="inteTools">Integrations Tools:</string>
+    <string name="lang">Languages:</string>
+    <string name="dotnetTech">.NET Technologies:</string>
+    <string name="OperatingSystems">Operating Systems:</string>
+    <string name="testingTools">Testing Tools:</string>
+    <string name="schName">School Name:</string>
+    <string name="degree">Degree Awarded:</string>
+    <string name="startDate">Start Date:</string>
+    <string name="endDate">End Date:</string>
+    <string name="standings">Standings:</string>
+</resources>
