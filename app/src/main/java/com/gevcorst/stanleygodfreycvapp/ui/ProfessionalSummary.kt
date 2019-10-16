@@ -32,6 +32,8 @@ class ProfessionalSummary : Fragment() {
         viewModel.Stanresume.observe(this, Observer {
             binding.pfList.layoutManager = LinearLayoutManager(this.requireContext())
             binding.pfList.adapter = ProfessionalSummaryAdapter(it.professionalSummary)
+            binding.progressBarPf.visibility = View.GONE
+            binding.pfList.visibility = View.VISIBLE
         })
 
         return binding.root

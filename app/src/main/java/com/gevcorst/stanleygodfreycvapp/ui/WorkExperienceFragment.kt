@@ -33,6 +33,8 @@ class WorkExperienceFragment : Fragment() {
         viewModel.Stanresume.observe(this, Observer {
             binding.wsList.layoutManager = LinearLayoutManager(this.requireContext())
             binding.wsList.adapter = WorkExperienceAdapter(it.workExperience)
+            binding.progressBarWs.visibility = View.GONE
+            binding.wsList.visibility = View.VISIBLE
         })
 
 

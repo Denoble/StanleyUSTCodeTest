@@ -41,6 +41,8 @@ class TechnicalSkillsFragment : Fragment() {
             binding.dotnetTech.text = it.technicalSkill.nETTechnologies
             binding.operatingSystem.text = it.technicalSkill.operatingSystems
             binding.testingTools.text = it.technicalSkill.testingTools
+            binding.progressBarTs.visibility = View.GONE
+            binding.constraintTs.visibility = View.VISIBLE
 
         })
 

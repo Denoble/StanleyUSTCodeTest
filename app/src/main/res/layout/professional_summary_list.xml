@@ -11,10 +11,16 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+        <ProgressBar
+            android:id="@+id/progressBarPf"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/pfList"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            />
+            android:visibility="gone" />
     </FrameLayout>
 </layout>

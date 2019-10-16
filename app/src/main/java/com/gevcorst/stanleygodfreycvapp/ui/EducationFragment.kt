@@ -33,6 +33,8 @@ class EducationFragment : Fragment() {
         viewModel.Stanresume.observe(this, Observer {
             binding.eduList.layoutManager = LinearLayoutManager(this.requireContext())
             binding.eduList.adapter =  EducationAdapter(it.education)
+            binding.progressBarEd.visibility = View.GONE
+            binding.eduList.visibility = View.VISIBLE
         })
         return binding.root
         }
