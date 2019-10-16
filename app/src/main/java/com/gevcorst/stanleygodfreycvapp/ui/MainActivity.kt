@@ -94,17 +94,12 @@ class MainActivity : AppCompatActivity() {
         val dialogBuilder = AlertDialog.Builder(this)
         dialogBuilder.setMessage("You are not connected to the Internet !")
             .setCancelable(false)
-            .setPositiveButton("Close App and connect to the Internet", DialogInterface.OnClickListener {
+            .setPositiveButton("Close App", DialogInterface.OnClickListener {
                     dialog, id -> finish()
-            })
-            .setNegativeButton("Close this App", DialogInterface.OnClickListener {
-                    dialog, id -> dialog.cancel()
             })
 
         val alert = dialogBuilder.create()
-
         alert.setTitle("Internet Connection")
-
         alert.show()
         alert.window?.setBackgroundDrawableResource(R.color.colorPrimary)
     }
