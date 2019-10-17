@@ -1,3 +1,3 @@
 # StanleyUSTCodeTest
 
-This is an Android Application for my Resume
+This is an Android Application in Kotlin for my Resume
