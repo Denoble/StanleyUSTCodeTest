@@ -29,7 +29,8 @@ import com.gevcorst.stanleygodfreycvapp.viewModel.ResumeViewModel
 class HomeFragment : Fragment() {
 
     private val viewModel: ResumeViewModel by lazy {
-        ViewModelProviders.of(this).get( ResumeViewModel::class.java)
+        ViewModelProviders.of(this, ResumeViewModel.Factory(requireActivity().application))
+            .get(ResumeViewModel::class.java)
     }
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
