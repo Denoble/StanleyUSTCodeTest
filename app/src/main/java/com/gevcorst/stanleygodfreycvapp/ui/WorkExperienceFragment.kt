@@ -29,7 +29,7 @@ class WorkExperienceFragment : Fragment() {
        val binding:WorkExperienceListBinding = DataBindingUtil.inflate(inflater,
            R.layout.work_experience_list,container,false)
         binding.setLifecycleOwner (this)
-        binding.weModel = viewModel
+      //  binding.weModel = viewModel
         viewModel.Stanresume.observe(this, Observer {
             binding.wsList.layoutManager = LinearLayoutManager(this.requireContext())
             binding.wsList.adapter = WorkExperienceAdapter(it.workExperience)

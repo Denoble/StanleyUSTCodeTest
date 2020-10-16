@@ -14,7 +14,7 @@ import com.gevcorst.stanleygodfreycvapp.viewModel.ResumeViewModel
 import java.io.File
 
 class ProfessionalSummaryAdapter(private val summaries: List<String>):RecyclerView.Adapter<ProfessionalSummaryAdapter.PSViewHolder>(){
-  lateinit private var pSummaries:List<String>
+  private lateinit var pSummaries:List<String>
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): PSViewHolder {
         val inflatedView = parent.inflate(R.layout.professional_summary_item, false)
         return PSViewHolder(inflatedView)

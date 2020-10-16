@@ -13,13 +13,10 @@ import android.net.ConnectivityManager.CONNECTIVITY_ACTION
 import android.net.Network
 import android.net.NetworkCapabilities.TRANSPORT_CELLULAR
 import android.net.NetworkCapabilities.TRANSPORT_WIFI
-import android.net.NetworkInfo
 import android.net.NetworkRequest
 import android.os.Build
 import androidx.annotation.RequiresApi
-import androidx.lifecycle.LiveData;
-
-
+import androidx.lifecycle.LiveData
 
 
 class MonitorNetworkConnection {

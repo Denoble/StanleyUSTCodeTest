@@ -9,7 +9,7 @@ import com.gevcorst.stanleygodfreycvapp.model.WorkExperience
 import java.lang.StringBuilder
 
 class WorkExperienceAdapter(private val workexperience: List<WorkExperience>):RecyclerView.Adapter<WorkExperienceAdapter.ViewHolder>(){
-    lateinit private var wkExperiences:List<WorkExperience>
+    private lateinit var wkExperiences:List<WorkExperience>
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val inflatedView = parent.inflate(R.layout.work_experience_item, false)
         return ViewHolder(inflatedView)

@@ -27,9 +27,8 @@ class EducationFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-            val binding:EducationListBinding = DataBindingUtil.inflate(
-                inflater,R.layout.education_list,container,false)
-        binding.setLifecycleOwner(this)
+        val binding = EducationListBinding.inflate(inflater,container,false)
+        binding.lifecycleOwner = this
         viewModel.Stanresume.observe(this, Observer {
             binding.eduList.layoutManager = LinearLayoutManager(this.requireContext())
             binding.eduList.adapter =  EducationAdapter(it.education)

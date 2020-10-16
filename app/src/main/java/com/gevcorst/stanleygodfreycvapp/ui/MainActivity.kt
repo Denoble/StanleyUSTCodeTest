@@ -64,7 +64,7 @@ class MainActivity : AppCompatActivity() {
 
         val cm = context.getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
 
-        cm?.run {
+        cm.run {
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
                 getNetworkCapabilities(activeNetwork)?.run {
                     return when {

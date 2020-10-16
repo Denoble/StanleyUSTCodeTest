@@ -8,7 +8,7 @@ import com.gevcorst.stanleygodfreycvapp.R
 import com.gevcorst.stanleygodfreycvapp.model.Education
 
 class EducationAdapter(private val educationList: List<Education>): RecyclerView.Adapter<EducationAdapter.ViewHolder>(){
-    lateinit private var eduList:List<Education>
+    private lateinit var eduList:List<Education>
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val inflatedView = parent.inflate(R.layout.education_item, false)
         return ViewHolder(inflatedView)

@@ -29,7 +29,7 @@ class TechnicalSkillsFragment : Fragment() {
     ): View? {
          val binding:TechnicalSkillsListBinding = DataBindingUtil.inflate(
              inflater,R.layout.technical_skills_list,container,false)
-            binding.setLifecycleOwner (this)
+        binding.lifecycleOwner = this
 
         viewModel.Stanresume.observe(this, Observer {
             binding.androidTech.text = it.technicalSkill.androidTechnologies
